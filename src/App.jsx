@@ -16,6 +16,7 @@ function App() {
   console.log("My name is"+{name})
   return ( 
     <>
+    
       <h1 style={{textAlign:"center"}}>My Department is {infoDetails.dept}</h1> 
       <p className='style'>Name: {infoDetails.name}<br/> 
         Age: {infoDetails.age}<br/>
