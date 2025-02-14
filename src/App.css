@@ -1,0 +1,14 @@
+.style{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-style:italic;
+  font-weight:lighter;
+  line-height: 1;
+  text-align: center;
+  color: rgb(61, 59, 59);
+  background-color: rgba(248, 240, 80, 0.804);
+  padding: 15px;
+  border-radius: 30px;
+  max-width: 500px;
+  margin: 20px auto; 
+}
