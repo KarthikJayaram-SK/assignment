@@ -12,7 +12,7 @@ function App() {
   }
 
   const details=()=>{
-    console.log("Namasthe");
+    console.log("Namastha");
   }
   
  
