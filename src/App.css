@@ -1,19 +1,16 @@
 body{
-  background-image: url('https://img.theweek.in/content/dam/week/news/entertainment/images/2023/10/2/Vijay-leo-trailer-release-x.jpg');
-  background-repeat: none;
-  background-size: cover;
-
-}.style{
-  font-size: 25px;
-  font-family: sans-serif;
-  font-style:italic;
-  font-weight:lighter;
-  line-height: 1;
   text-align: center;
-  color: rgb(61, 59, 59);
-  background-color: rgba(248, 247, 244, 0.6);
-  padding: 20px;
-  border-radius: 30px;
-  max-width: 500px;
-  margin: 20px auto; 
+  background-color: rgb(240, 237, 237);
 }
+.b1{
+  background-color: red;
+  color: white;
+}
+.b2{
+  background-color: skyblue;
+}
+.b3
+{
+  background-color: yellow;
+}
+

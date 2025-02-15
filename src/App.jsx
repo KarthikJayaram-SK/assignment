@@ -4,25 +4,25 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  let name = "Karthik Jayaram S K"
+  alert("Welcome.........");
 
-  const infoDetails={ 
-    name: "Karthik Jayaram S K",
-    age: 18,
-    Roll :43,
-    dept: "M.tech CSE"
+
+  function english(){
+    console.log("hii....")
   }
-  alert(`my name is ${infoDetails.name}`)
-  console.log("My name is"+{name})
+
+  const details=()=>{
+    console.log("Namasthe");
+  }
+  
+ 
   return ( 
     <>
-    
-      <h1 style={{textAlign:"center"}}>My Department is {infoDetails.dept}</h1> 
-      <p className='style'>Name: {infoDetails.name}<br/> 
-        Age: {infoDetails.age}<br/>
-        Roll:{infoDetails.Roll}<br/>
-        Department: {infoDetails.dept}<br/>
-      </p>
+
+    <h1>WELCOME</h1>
+    <div className='b1'><button  onClick={english}>English</button> </div>
+    <div className='b2'><button  onClick={()=>console.log("Vanakam")}>Tamil</button> </div>
+    <div className='b3'><button  onClick={details}>Hindi</button></div>
     </>
   )
 }
